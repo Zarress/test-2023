@@ -23,3 +23,78 @@ h1 {
 a {
   color: #fee389;
 }
+
+#container {
+  display: flex;
+  padding: 10px;
+  border: 1px solid white;
+  width: 180px;
+  min-width: 77px;
+  margin: auto;
+  resize: horizontal;
+  overflow: auto;
+  gap: 0 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#indicators {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+#B {
+  padding: 10px;
+}
+
+#B:hover {
+  cursor: pointer;
+  background-color: sienna;
+  border-radius: 8px;
+}
+
+#container2 {
+  display: flex;
+  padding: 20px 10px;
+  border: 1px solid white;
+  width: 180px;
+  min-width: 77px;
+  margin: auto;
+  resize: horizontal;
+  overflow: auto;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+#indicators2 {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  background-color: #322e2d;
+}
+
+#A2 {
+  margin-left: 14px;
+}
+
+#B2 {
+  padding: 10px; 
+  margin-right: 10px;
+}
+
+#B2:hover {
+  cursor: pointer;
+  background-color: sienna;
+  border-radius: 8px;
+}
+
+#header2, #header {
+  max-height: 18px;
+  overflow: hidden;
+  overflow-wrap: normal;
+  text-align: left;
+}
