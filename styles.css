@@ -98,3 +98,20 @@ a {
   overflow-wrap: normal;
   text-align: left;
 }
+
+#container3 {
+  padding: 20px 10px;
+  border: 1px solid white;
+  width: 180px;
+  min-width: 77px;
+  margin: auto;
+  resize: horizontal;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+#header3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
