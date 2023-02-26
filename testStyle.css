@@ -1,0 +1,90 @@
+html {
+    font-size: 16px; /* ustawienie domyślnej wielkości czcionki dla całej strony */
+    background-color: rgba(32,33,35,.8);
+    color: white;
+}
+body {
+  margin: 0;
+}
+@media (max-width: 1280px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+  #test {
+    padding: 16px;
+    font-size: 48px;
+  }
+  #first {
+    font-size: 1em; /* ustawienie wielkości czcionki dla elementów p na 1.2 razy większą niż wielkość font-size elementu body (czyli 19.2 piksela) */
+    line-height: 1em; /* ustawienie odstępu międzywierszowego na 1.5 razy wielkość font-size elementu body */
+  }
+  p:last-child {
+    font-size: 2rem; /* ustawienie wielkości czcionki dla elementów p na 1.2 razy większą niż wielkość font-size elementu body (czyli 19.2 piksela) */
+    line-height: 2rem; /* ustawienie odstępu międzywierszowego na 1.5 razy wielkość font-size elementu body */
+  }
+
+  .main-wrapper{
+    display: flex;
+  }
+  #sidebar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+  }
+  #sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  #sidebar ul:hover{
+    overflow: auto;
+  }
+  #sidebar ul li {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 0 20px;
+  }
+  #sidebar ul li:hover {
+    background-color: rgba(32,33,35,.5);
+    cursor: pointer;
+  }
+  .fixed-items {
+    font-size: 3rem;
+    text-align: center;
+    border-top: 2px solid black;
+    
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0000b3; 
+}
+
+#sidebar #dropdown-list {
+  display: none;
+  margin-left:20px;
+}
